@@ -1,15 +1,17 @@
 import type {
+	IconFile,
 	ICredentialDataDecryptedObject,
 	ICredentialTestRequest,
 	ICredentialType,
 	IHttpRequestOptions,
 	INodeProperties,
+	Themed,
 } from 'n8n-workflow';
 
 export class UnitalkAiRouterApi implements ICredentialType {
 	name = 'unitalkAiRouterApi';
 	displayName = 'Unitalk AI Router API';
-	icon = undefined;
+	icon = { light: 'file:unitalk.svg', dark: 'file:unitalk.dark.svg' } as Themed<IconFile>;
 	documentationUrl = 'https://unitalk.ai';
 	properties: INodeProperties[] = [
 		{
