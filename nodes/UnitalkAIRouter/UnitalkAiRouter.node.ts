@@ -10,7 +10,7 @@ export class UnitalkAiRouter implements INodeType {
 		displayName: 'Unitalk AI',
 		name: 'unitalkAiRouter',
 		hidden: true,
-		icon: { light: 'file:../../icons/unitalk.svg', dark: 'file:../../icons/unitalk.dark.svg' },
+		icon: { light: 'file:unitalk.svg', dark: 'file:unitalk.dark.svg' },
 		group: ['transform'],
 		version: [1, 1.1],
 		subtitle: '={{$parameter["operation"] + ": " + $parameter["resource"]}}',
@@ -29,7 +29,7 @@ export class UnitalkAiRouter implements INodeType {
 		requestDefaults: {
 			ignoreHttpStatusErrors: true,
 			baseURL:
-				'={{ $credentials.url?.split("/").slice(0,-1).join("/") ?? "https://api.openai.com" }}',
+				'={{ $credentials.url?.split("/").slice(0,-1).join("/") ?? "https://gateway.unitalk.ai" }}',
 		},
 		properties: [
 			{
