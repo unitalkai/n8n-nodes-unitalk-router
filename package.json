@@ -12,7 +12,8 @@
 		"email": "4213033+atouchsh@users.noreply.github.com"
 	},
 	"repository": {
-		"type": "git"
+		"type": "git",
+		"url": "git@github.com:unitalkai/n8n-nodes-unitalk-router.git"
 	},
 	"scripts": {
 		"build": "n8n-node build",
