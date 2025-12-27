@@ -3,7 +3,7 @@
 	"version": "0.1.6",
 	"description": "Unitalk AI Router integration for n8n",
 	"license": "MIT",
-	"homepage": "https://unitalk.ai",
+	"homepage": "",
 	"keywords": [
 		"n8n-community-node-package"
 	],
@@ -33,7 +33,7 @@
 			"dist/credentials/UnitalkAiRouterApi.credentials.js"
 		],
 		"nodes": [
-			"dist/nodes/UnitalkAIRouter/UnitalkAIRouter.node.js"
+			"dist/nodes/UnitalkAiRouter/UnitalkAiRouter.node.js"
 		]
 	},
 	"devDependencies": {
@@ -47,7 +47,5 @@
 	"peerDependencies": {
 		"n8n-workflow": "*"
 	},
-	"dependencies": {
-		"sqlite3": "^5.1.7"
-	}
+	"dependencies": {}
 }
