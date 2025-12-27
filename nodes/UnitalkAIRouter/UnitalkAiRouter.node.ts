@@ -9,7 +9,6 @@ export class UnitalkAiRouter implements INodeType {
 	description: INodeTypeDescription = {
 		displayName: 'Unitalk AI',
 		name: 'unitalkAiRouter',
-		hidden: true,
 		icon: { light: 'file:unitalk.svg', dark: 'file:unitalk.dark.svg' },
 		group: ['transform'],
 		version: [1, 1.1],
