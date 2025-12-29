@@ -1,6 +1,6 @@
 {
 	"name": "n8n-nodes-unitalk-router",
-	"version": "0.1.9",
+	"version": "0.1.10",
 	"description": "Unitalk AI Router integration for n8n",
 	"license": "MIT",
 	"homepage": "",
