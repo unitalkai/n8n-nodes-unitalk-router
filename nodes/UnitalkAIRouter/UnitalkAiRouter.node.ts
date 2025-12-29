@@ -27,8 +27,7 @@ export class UnitalkAiRouter implements INodeType {
 		],
 		requestDefaults: {
 			ignoreHttpStatusErrors: true,
-			baseURL:
-				'={{ $credentials.url?.split("/").slice(0,-1).join("/") ?? "https://gateway.unitalk.ai" }}',
+			baseURL: '={{ $credentials.url ?? "https://gateway.unitalk.ai" }}',
 		},
 		properties: [
 			{

@@ -26,7 +26,7 @@ export class UnitalkAiRouterApi implements ICredentialType {
 			displayName: 'Base URL',
 			name: 'url',
 			type: 'string',
-			default: 'https://gateway.unitalk.ai/v1',
+			default: 'https://gateway.unitalk.ai',
 			description: 'Override the default base URL for the API',
 		},
 		{
