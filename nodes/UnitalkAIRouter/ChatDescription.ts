@@ -62,12 +62,6 @@ const completeOperations: INodeProperties[] = [
 								},
 							},
 							{
-								type: 'filter',
-								properties: {
-									pass: "={{ $responseItem.id.startsWith('gpt-') && !$responseItem.id.startsWith('gpt-4-vision') }}",
-								},
-							},
-							{
 								type: 'setKeyValue',
 								properties: {
 									name: '={{$responseItem.id}}',
@@ -123,12 +117,7 @@ const completeOperations: INodeProperties[] = [
 									property: 'data',
 								},
 							},
-							{
-								type: 'filter',
-								properties: {
-									pass: "={{ $responseItem.id.startsWith('gpt-') && !$responseItem.id.startsWith('gpt-4-vision') }}",
-								},
-							},
+
 							{
 								type: 'setKeyValue',
 								properties: {
